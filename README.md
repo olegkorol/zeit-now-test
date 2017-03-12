@@ -1,2 +1,3 @@
 # zeit-now-test
-A small test of Zeit's Now deployment tool
+
+This small repository is intended for testing Zeit's live deployment tool Now.

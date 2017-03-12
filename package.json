@@ -1,0 +1,28 @@
+{
+  "name": "zeit-now-test",
+  "version": "1.0.0",
+  "description": "A small test of Zeit's Now deployment tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-to-now": "now -e SALUTATION=@salutation"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegkorol/zeit-now-test.git"
+  },
+  "keywords": [
+    "Zeit",
+    "Now",
+    "deployment"
+  ],
+  "author": "Oleg Korol",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/olegkorol/zeit-now-test/issues"
+  },
+  "homepage": "https://github.com/olegkorol/zeit-now-test#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
